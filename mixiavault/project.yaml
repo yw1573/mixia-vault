@@ -1,0 +1,51 @@
+spec_version: "2.1"
+app_id: com.yw1573.mixiavault
+version: 0.01.0
+support_arch:
+  - amd64
+  - arm64
+product_series:
+  - nasync
+supports:
+  - pc
+# 是否为 Docker 应用
+is_docker_app: false
+port: 31573
+# 应用后端服务的启动命令，包含后端服务可执行文件路径（相对于应用安装目录）和命令行参数。
+start_cmd: bin/mixiavault --port=31573
+# 应用需要系统网关代理的 HTTP 请求路径前缀，用于将前端请求转发到后端服务。
+# 例如设置为 api/v1，则所有以 /api/v1/ 开头的请求都会被转发到后端服务。
+proxy_path: api/v1
+open_type: inner
+# 是否支持用户授权访问个人文件夹和共享文件夹。
+allow_add_access_path: true
+# 是否支持迁移安装目录。
+support_migration: true
+tag_types:
+  - utility
+  - security
+depend_fw_version: 1.13.0.0000
+depend_docker_version: 1.7.0.0000
+# 隐私政策链接
+privacy_policy_link:
+  - https://github.com/yw1573/mixia-vault
+# 许可协议链接
+license_agreement_link:
+  - https://opensource.org/licenses/MIT
+# 源码链接
+source_code_link: https://github.com/yw1573/mixia-vault
+# 技术支持链接
+technical_support_link: https://github.com/yw1573/mixia-vault/issues
+i18n:
+  en-US:
+    name: mixiavault
+    description: Cross-platform local KDBX4 password manager compatible with KeePass with strong memory safety.
+    author: yw1573
+    official: https://github.com/yw1573/mixia-vault
+    help: https://github.com/yw1573/mixia-vault
+  zh-CN:
+    name: 密匣
+    description: 跨平台本地 KDBX4 密码管理器，兼容 KeePass，重视内存安全。
+    author: yw1573
+    official: https://github.com/yw1573/mixia-vault
+    help: https://github.com/yw1573/mixia-vault
