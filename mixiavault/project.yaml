@@ -28,7 +28,7 @@ depend_fw_version: 1.13.0.0000
 depend_docker_version: 1.7.0.0000
 # 隐私政策链接
 privacy_policy_link:
-  - https://github.com/yw1573/mixia-vault
+  - https://github.com/yw1573/mixia-vault/blob/master/DISCLAIMER.md
 # 许可协议链接
 license_agreement_link:
   - https://opensource.org/licenses/MIT
