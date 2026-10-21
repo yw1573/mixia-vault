@@ -10,4 +10,4 @@ Toil like a beast of burden by day; contribute to open source by night.
 
 
 
-## [免责声明 | Disclaimer]((./DISCLAIMER.md))
+## [免责声明 | Disclaimer](DISCLAIMER.md)
