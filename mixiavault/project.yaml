@@ -33,9 +33,11 @@ privacy_policy_link:
 license_agreement_link:
   - https://opensource.org/licenses/MIT
 # 源码链接
-source_code_link: https://github.com/yw1573/mixia-vault
+source_code_link:
+  - https://github.com/yw1573/mixia-vault
 # 技术支持链接
-technical_support_link: https://github.com/yw1573/mixia-vault/issues
+technical_support_link:
+  - https://github.com/yw1573/mixia-vault/issues
 i18n:
   en-US:
     name: mixiavault
